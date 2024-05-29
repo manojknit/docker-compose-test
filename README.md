@@ -3,7 +3,7 @@ https://docs.docker.com/compose/gettingstarted/
 
 ## Branching
 ```
-# Create main/master first time
+# Create main/master first time - default branch
 git checkout -b main
 git add .
 git commit -m "Initial commit"
@@ -26,7 +26,9 @@ git push -u origin mybranch
 git branch -r
 
 #Create PR from Pull Request in GitHub Base = your branch
-
+switch back after pr merge
+git checkout main
+git pull
 ```
 
 
