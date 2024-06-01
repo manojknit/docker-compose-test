@@ -34,6 +34,8 @@ git pull
 
 ### Build and run your app with Compose
 ```
-$ docker compose up
+$ docker compose up --build
+$ docker-compose down
+docker compose up -d: This flag stands for "detached mode." When used, it runs the containers in the background, allowing you to continue using the terminal for other tasks.
 ```
 Enter http://localhost:8000/ in a browser to see the application running

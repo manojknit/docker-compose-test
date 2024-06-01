@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "docker-compose-test"
+version = "0.1.0"
+description = ""
+authors = ["kumarm4 <manoj.kumar1@autodesk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+redis = "^5.0.4"
+flask = "^3.0.3"
+pymongo = "^4.7.2"
+pydantic = "^2.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
